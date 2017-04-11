@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-/// From here to end of file added by Injection Plugin
+// From here to end of file added by Injection Plugin //
+
 #ifdef DEBUG
 #define INJECTION_PORT 31452
 static char _inMainFilePath[] = __FILE__;

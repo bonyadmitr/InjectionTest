@@ -14,10 +14,10 @@ class ViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        someView.backgroundColor = UIColor.green
-        someView.layer.cornerRadius = 30
-        someView.layer.borderWidth = 10
-        someView.layer.borderColor = UIColor.red.cgColor
+//        someView.backgroundColor = UIColor.green
+//        someView.layer.cornerRadius = 30
+//        someView.layer.borderWidth = 10
+//        someView.layer.borderColor = UIColor.red.cgColor
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -27,9 +27,9 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = "Row \(indexPath.row + 1)"
-        cell.textLabel?.font = UIFont.systemFont(ofSize: 30)
-        cell.layer.borderWidth = 3
-        cell.layer.borderColor = UIColor.magenta.cgColor
+//        cell.textLabel?.font = UIFont.systemFont(ofSize: 30)
+//        cell.layer.borderWidth = 3
+//        cell.layer.borderColor = UIColor.magenta.cgColor
         return cell
     }
 }
