@@ -11,6 +11,9 @@ import UIKit
 extension UIViewController {
     func injected() {
         print("I've been injected: \(self)")
+//        view.subviews.forEach {
+//            $0.removeFromSuperview()
+//        }
         viewDidLoad()
     }
 }
