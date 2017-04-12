@@ -1,6 +1,8 @@
-This project shows work with Injection app.
+This project shows power of Injection app:
 
-About it read my articles:
+<img src="https://cdn-images-1.medium.com/max/2000/1*bEQS6_YwqqqKl-vZaCip1Q.gif">
+
+Read my articles about it:
 
 [Real time development in iOS with Injection (Part 1)](https://medium.com/@bonyadmitr/real-time-development-in-ios-with-injection-a57454c9060d)
 
