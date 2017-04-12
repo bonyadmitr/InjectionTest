@@ -1,6 +1,6 @@
 This project shows power of Injection app:
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*bEQS6_YwqqqKl-vZaCip1Q.gif">
+![](example.gif)
 
 Read my articles about it:
 
